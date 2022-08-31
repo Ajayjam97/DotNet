@@ -52,7 +52,7 @@ In the above 3 projects now, we can perform tests & run application using just b
 1. **"dotnet test .\TestLibrary\TestLibrary.csproj"**  for performing tests.
 2. **"dotnet run -p .\ConsoleApp\ConsoleApp.csproj"**  for running the main Console application.
 
-##Make VS Code look like Visual studio.
+## Make VS Code look like Visual studio.
 
 This really helps to make it feel & look like Visual studio for the DotNet developers. All you have to do is to install vscode-solution-explorer package.
 ![image](https://user-images.githubusercontent.com/21179880/187766474-fdc88099-3a1c-42a0-9ac6-c84935bb9787.png)
