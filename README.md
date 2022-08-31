@@ -13,7 +13,7 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
 ## Creating Projects in the solution
 
 <details>
-<summary>Add a dll project</summary>
+<summary>Adding a Lib project</summary>
 <br>
   <ol>
     <li>Use "dotnet new classlib -o Library" command to add classlib type of project.</li>
@@ -25,7 +25,7 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
 </details>
   
 <details>
-<summary>Add XUnit Test project</summary>
+<summary>Adding XUnit Test project</summary>
 <br>
   <ol>
  <li>Use "dotnet new xunit -o TestLibrary" command to add xunit type of project for testing purpose.</li>
@@ -35,5 +35,19 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
  <li>After adding code int TestLibrary use "dotnet test .\TestLibrary\TestLibrary.csproj" to perform testing.</li>
   </ol>
 </details>
+
+<details>
+<summary>Adding Console project</summary>
+<br>
+  <ol>
+ <li>Use "dotnet new console -o ConsoleApp" command to add console application type of project.</li>
+ <li>Use "dotnet sln add .\ConsoleApp\ConsoleApp.csproj" command to add the project to solution.</li>
+ <li>Now to use the functionality of Library.dll add refernece of the library in ConsoleApp project.</li>
+ <li>Use "dotnet add .\ConsoleApp\ConsoleApp.csproj reference .\Library\Library.csproj" command.</li>
+ <li>Use "dotnet run -p .\ConsoleApp\ConsoleApp.csproj" command to build & run the project.</li>
+  </ol>
+</details>
+
+
 
 
