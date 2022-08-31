@@ -12,7 +12,7 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
 
 ## Creating Projects in the solution
 
-<details open>
+<details>
 <summary>Add a dll project</summary>
 <br>
 1. Use "dotnet new classlib -o Library" command to add classlib type of project.
