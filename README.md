@@ -16,7 +16,7 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
 <summary>Add a dll project</summary>
 <br>
   <ol>
-    <li><Use "dotnet new classlib -o Library" command to add classlib type of project.</li>
+    <li>Use "dotnet new classlib -o Library" command to add classlib type of project.</li>
     <li>Use "dotnet sln add .\Library\Library.csproj" command to add the project to solution.</li>
     <li>Use "dotnet add .\Library\ package Newtonsoft.Json" to add package to the Library project.</li>
     <li>Use "dotnet restore" to grab the packages specified as package reference in your project.</li>
@@ -27,11 +27,13 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
 <details>
 <summary>Add XUnit Test project</summary>
 <br>
-1. Use "dotnet new xunit -o TestLibrary" command to add xunit type of project for testing purpose.
-2. Use "dotnet sln add .\TestLibrary\TestLibrary.csproj" command to add the project to solution.
-3. Now to test functionality of Library.dll add refernece to the library in TestLibrary project.
-4. Use "dotnet add .\TestLibrary\TestLibrary.csproj reference .\Library\Library.csproj" command.
-5. After adding code int TestLibrary use "dotnet test .\TestLibrary\TestLibrary.csproj" to perform testing.
+  <ol>
+ <li>Use "dotnet new xunit -o TestLibrary" command to add xunit type of project for testing purpose.</li>
+ <li>Use "dotnet sln add .\TestLibrary\TestLibrary.csproj" command to add the project to solution.</li>
+ <li>Now to test functionality of Library.dll add refernece to the library in TestLibrary project.</li>
+ <li>Use "dotnet add .\TestLibrary\TestLibrary.csproj reference .\Library\Library.csproj" command.</li>
+ <li>After adding code int TestLibrary use "dotnet test .\TestLibrary\TestLibrary.csproj" to perform testing.</li>
+  </ol>
 </details>
 
 
