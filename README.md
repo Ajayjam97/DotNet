@@ -17,10 +17,10 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
 <br>
   <ol>
     <li><Use "dotnet new classlib -o Library" command to add classlib type of project.</li>
-2. Use "dotnet sln add .\Library\Library.csproj" command to add the project to solution.
-3. Use "dotnet add .\Library\ package Newtonsoft.Json" to add package to the Library project.
-4. Use "dotnet restore" to grab the packages specified as package reference in your project.
-7. Add working code using Newtonsoft package & execute "dotnet build" command. This will give you library.dll
+    <li>Use "dotnet sln add .\Library\Library.csproj" command to add the project to solution.</li>
+    <li>Use "dotnet add .\Library\ package Newtonsoft.Json" to add package to the Library project.</li>
+    <li>Use "dotnet restore" to grab the packages specified as package reference in your project.</li>
+    <li>Add working code using Newtonsoft package & execute "dotnet build" command. This will give you library.dll</li>
   </ol>
 </details>
   
