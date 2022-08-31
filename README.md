@@ -48,6 +48,10 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
   </ol>
 </details>
 
+In the above 3 projects now, we can perform tests & run application using just below dotnet cli commands:
+1. **"dotnet test .\TestLibrary\TestLibrary.csproj"**  for performing tests.
+2. **"dotnet run -p .\ConsoleApp\ConsoleApp.csproj"**  for running the main Console application.
+
 
 
 
