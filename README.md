@@ -21,7 +21,7 @@ Use git clone https://github.com/Ajayjam97/DotNet.git to clone the project anywh
 4. Use "dotnet restore" to grab the packages specified as package reference in your project.
 7. Add working code using Newtonsoft package & execute "dotnet build" command. This will give you library.dll
 </details>
-<details open>
+<details>
 <summary>Add XUnit Test project</summary>
 <br>
 1. Use "dotnet new xunit -o TestLibrary" command to add xunit type of project for testing purpose.
