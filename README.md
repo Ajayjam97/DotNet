@@ -56,7 +56,6 @@ In the above 3 projects now, we can perform tests & run application using just b
 
 This really helps to make it feel & look like Visual studio for the DotNet developers. All you have to do is to install vscode-solution-explorer package.
 ![image](https://user-images.githubusercontent.com/21179880/187766474-fdc88099-3a1c-42a0-9ac6-c84935bb9787.png)
-![image](https://user-images.githubusercontent.com/21179880/187766963-54389152-1e3b-48e3-91cd-7515c6b43293.png)
 
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
