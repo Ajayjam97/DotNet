@@ -59,6 +59,9 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 ![image](https://user-images.githubusercontent.com/21179880/187766963-54389152-1e3b-48e3-91cd-7515c6b43293.png)
 
 
+## If you are planning to develop your solution on cloud follow the below flowchart
+![image](https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png)
+
 
 
 
