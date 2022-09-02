@@ -148,6 +148,11 @@ Frontend (React, Angular)
 Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
           </li>
 <br>
+  
+        <li>
+Make sure to check quality attributes (Scalability, Manageability, Modularity, Extensibility, Testability)
+          </li>
+<br>
           
   </ul>
 
