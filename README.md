@@ -127,6 +127,16 @@ Discuss Non-functional requirements:
 3. Data volume: How much data system will acquire over time. This helps is deciding the Database, planning Query design & Storage.
 4. Concurrent Users: How many users will be using the system concurrently. (Here not every user is making requests/performing operations)
 5. SLA: Be practical about the SLA. 99.999% should not be the straight away answer. 
+<br>
+Decide application type after requirements are set. (Web Apps, Web APIs, Mobile, Console, Service, Desktop). Serverless computing applications
+like Azure functions, firebase functions, AWS lambda are type of methods that execute on trigger and are free of load, throughtput & performance constraints.
+<br>
+Selecting technology stack needs to be a rational decision based on the requirements. It needs to be a team decision for each backend, frontend & database technologies. The technology stack selected should have an active community, popular/trending as compared to its peers.
+Backend (Nodejs, .Net Core, Java, Python)
+Frontend (React, Angular)
+Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
+<br>
+
   
 
 
