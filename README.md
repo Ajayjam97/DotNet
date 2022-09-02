@@ -63,6 +63,7 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 2. Secure
 3. Reliable
 4. Easy to maintain
+
 (Other than the techinal aspect of the application you also need to make sure you know the weakness, strengths, competition & growth startegy of the business for which you are planning to solution.)
 
 Architecture process:
