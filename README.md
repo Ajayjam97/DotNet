@@ -57,6 +57,22 @@ In the above 3 projects now, we can perform tests & run application using just b
 This really helps to make it feel & look like Visual studio for the DotNet developers. All you have to do is to install vscode-solution-explorer package.
 ![image](https://user-images.githubusercontent.com/21179880/187766474-fdc88099-3a1c-42a0-9ac6-c84935bb9787.png)
 
+## Baseline requirement of any Solution/Application
+
+1. Fast
+2. Secure
+3. Reliable
+4. Easy to maintain
+(Other than the techinal aspect of the application you also need to make sure you know the weakness, strengths, competition & growth startegy of the business for which you are planning to solution.)
+
+Architecture process:
+1. Understand System's requiremnts.
+2. Understand Non-FUnctional requirements.
+3. Map the components.
+4. Select technology stack.
+5. Design the system architecture.
+6. Write architecture document.
+7. Develop & support your team.
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
 ![image](https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png)
