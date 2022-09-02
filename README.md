@@ -81,23 +81,21 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
   Define technical & service level attributes.(# of Users, Loads, Volume, Performance, Concurrent Users, SLA etc.)
   Techincal requirements are not always known to the client or business & its your job to help them formulate these requirements.
     <br>
-  Discuss Non-functional requirements:<br>
+  Discuss Non-functional requirements:<br><br>
 1. <b>Performance:</b>    In performance we look for the latency & throughtput of the system. By latency we mean that how much time an operation takes 
    in the application (Example: Storing new user data takes 30ms). By throughput we mean that how many operations can be completed in a given
-   time (Example: Storing data of 40 users can take 1s)<br>
+   time (Example: Storing data of 40 users can take 1s)<br><br>
 2. <b>Load:</b>     By load we mean to what extreme can the system handle the load without crashing (Example: In a WebAPI how many concurrent requests
-   can the system handle.)    If company A recieves 100 requests/sec daily, what if on a Black Friday Sale it recieves 1000 requests/sec. <br>
-3. <b>Data volume:</b>    How much data system will acquire over time. This helps is deciding the Database, planning Query design & Storage.<br>
-4. <b>Concurrent Users:</b>     How many users will be using the system concurrently. (Here not every user is making requests/performing operations) <br>
-5. <b>SLA:</b>    Be practical about the SLA. 99.999% should not be the straight away answer. 
+   can the system handle.)    If company A recieves 100 requests/sec daily, what if on a Black Friday Sale it recieves 1000 requests/sec. <br><br>
+3. <b>Data volume:</b>    How much data system will acquire over time. This helps is deciding the Database, planning Query design & Storage.<br><br>
+4. <b>Concurrent Users:</b>     How many users will be using the system concurrently. (Here not every user is making requests/performing operations) <br><br>
+5. <b>SLA:</b>    Be practical about the SLA. 99.999% should not be the straight away answer. <br>
 </details>
 
 <details>
 <summary>3. Map the components.</summary>
 <br>
-  Helps understand the system functionality and communicate the basic working idea to client.
-  Decide application type after requirements are set. (Web Apps, Web APIs, Mobile, Console, Service, Desktop). Serverless computing applications
-like Azure functions, firebase functions, AWS lambda are type of methods that execute on trigger and are free of load, throughtput & performance constraints.
+  Helps understand the system functionality and communicate the basic working idea to client. Decide application type after requirements are set. (Web Apps, Web APIs, Mobile, Console, Service, Desktop). <br>Serverless computing applications like Azure functions, firebase functions, AWS lambda are type of methods that execute on trigger and are free of load, throughtput & performance constraints.
 </details>
 
 <details>
@@ -105,13 +103,13 @@ like Azure functions, firebase functions, AWS lambda are type of methods that ex
 <br>
   Usually involves technologies for Backend, Fornt-end & Database. The choices need to be very rational as a wrong combination of tech stack 
   can lead to integration problems and errors in future. It needs to be a team decision for each backend, frontend & database technologies. The technology stack selected should have an active community, popular/trending as compared to its peers.
-          <br>
+          <br><br>
 Backend (Nodejs, .Net Core, Java, Python)
-          <br>
+          <br><br>
 Frontend (React, Angular)
-          <br>
+          <br><br>
 Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
-  <br>
+  <br><br>
   Make sure to check quality attributes (Scalability, Manageability, Modularity, Extensibility, Testability)
 </details>
 
