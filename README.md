@@ -129,8 +129,9 @@ Discuss Non-functional requirements:<br>
    can the system handle.) If company A recieves 100 requests/sec daily, what if on a Black Friday Sale it recieves 1000 requests/sec. <br>
 3. Data volume: How much data system will acquire over time. This helps is deciding the Database, planning Query design & Storage.<br>
 4. Concurrent Users: How many users will be using the system concurrently. (Here not every user is making requests/performing operations) <br>
-5. SLA: Be practical about the SLA. 99.999% should not be the straight away answer. 
+5. <bold>SLA:</bold> Be practical about the SLA. 99.999% should not be the straight away answer. 
       </li>
+  <br>
       <li>
 Decide application type after requirements are set. (Web Apps, Web APIs, Mobile, Console, Service, Desktop). Serverless computing applications
 like Azure functions, firebase functions, AWS lambda are type of methods that execute on trigger and are free of load, throughtput & performance constraints.
