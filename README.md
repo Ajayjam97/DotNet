@@ -129,7 +129,7 @@ Discuss Non-functional requirements:<br>
    can the system handle.) If company A recieves 100 requests/sec daily, what if on a Black Friday Sale it recieves 1000 requests/sec. <br>
 3. Data volume: How much data system will acquire over time. This helps is deciding the Database, planning Query design & Storage.<br>
 4. Concurrent Users: How many users will be using the system concurrently. (Here not every user is making requests/performing operations) <br>
-5. <bold>SLA:</bold> Be practical about the SLA. 99.999% should not be the straight away answer. 
+5. <b>SLA:</b> Be practical about the SLA. 99.999% should not be the straight away answer. 
       </li>
   <br>
       <li>
