@@ -66,14 +66,44 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 
 (Other than the techinal aspect of the application you also need to make sure you know the weakness, strengths, competition & growth startegy of the business for which you are planning to solution.)
 
-Architecture process:
-1. Understand System's requiremnts.
-2. Understand Non-FUnctional requirements.
-3. Map the components.
-4. Select technology stack.
-5. Design the system architecture.
-6. Write architecture document.
-7. Develop & support your team.
+## System Architecture process
+
+<details>
+<summary>1. Understand System's requiremnts.</summary>
+<br>
+</details>
+
+<details>
+<summary>2. Understand Non-FUnctional requirements.</summary>
+<br>
+</details>
+
+<details>
+<summary>3. Map the components.</summary>
+<br>
+</details>
+
+<details>
+<summary>4. Select technology stack.</summary>
+<br>
+</details>
+
+<details>
+<summary>5. Design the system architecture.</summary>
+<br>
+</details>
+
+<details>
+<summary>6. Write architecture document.</summary>
+<br>
+</details>
+
+<details>
+<summary>7. Develop & support your team.</summary>
+<br>
+</details>
+  
+
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
 ![image](https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png)
