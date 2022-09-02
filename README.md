@@ -162,6 +162,13 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   Data Access Layer(DAL)
         </li>
   </ol>
+  <br> 
+  As per the code flow the layer above should consume the layer below. That means BLL consumes the objects of DAL to connect with Database and execute logics on the data. But if you are using Concrete classes to access DAL than there might be an issue of tight coupling. If you want to change the whole DAL layer, then you might have to change modify the calls made to DAL object in BLL as well.<br>
+  To resolve this we use DI(Dependency injection) to refernece DAL layer in BLL code. This introduces Loose coupling.
+  ```
+  DAL dal = new DAL();
+  var entity=dal.GetData(100);
+  ```
  
   
 <br><br> 
