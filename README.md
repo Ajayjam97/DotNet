@@ -115,6 +115,7 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
   Finally, develop along and duide your team. Make changes & other decisions if required. 
 </details>
 
+<br><br>
 <ul>
   <li>
 Discuss functional requirements like (User login, User roles, User operations, Application functionalities etc)
@@ -122,14 +123,14 @@ Discuss functional requirements like (User login, User roles, User operations, A
 <br>
     <li>
 Discuss Non-functional requirements:<br>
-1. <b>Performance:</b> In performance we look for the latency & throughtput of the system. By latency we mean that how much time an operation takes 
+1. <b>Performance:</b>    In performance we look for the latency & throughtput of the system. By latency we mean that how much time an operation takes 
    in the application (Example: Storing new user data takes 30ms). By throughput we mean that how many operations can be completed in a given
    time (Example: Storing data of 40 users can take 1s)<br>
-2. <b>Load:</b> By load we mean to what extreme can the system handle the load without crashing (Example: In a WebAPI how many concurrent requests
-   can the system handle.) If company A recieves 100 requests/sec daily, what if on a Black Friday Sale it recieves 1000 requests/sec. <br>
-3. <b>Data volume:</b> How much data system will acquire over time. This helps is deciding the Database, planning Query design & Storage.<br>
-4. <b>Concurrent Users:</b> How many users will be using the system concurrently. (Here not every user is making requests/performing operations) <br>
-5. <b>SLA:</b> Be practical about the SLA. 99.999% should not be the straight away answer. 
+2. <b>Load:</b>     By load we mean to what extreme can the system handle the load without crashing (Example: In a WebAPI how many concurrent requests
+   can the system handle.)    If company A recieves 100 requests/sec daily, what if on a Black Friday Sale it recieves 1000 requests/sec. <br>
+3. <b>Data volume:</b>    How much data system will acquire over time. This helps is deciding the Database, planning Query design & Storage.<br>
+4. <b>Concurrent Users:</b>     How many users will be using the system concurrently. (Here not every user is making requests/performing operations) <br>
+5. <b>SLA:</b>    Be practical about the SLA. 99.999% should not be the straight away answer. 
       </li>
   <br>
       <li>
