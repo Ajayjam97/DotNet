@@ -125,9 +125,9 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   <br><br>
   Software architecture has 2 levels of architecture (LLD & HLD) <br>
   
-  [LLD(Low Level Design)](#lldlow-level-design)
+  [LLD(Low Level Design)](#lldlow-level-design) : It deals with the components of the code and how they interact with each other.
   <br>
-  [HLD(High Level Design)](#hldhigh-level-design)
+  [HLD(High Level Design)](#hldhigh-level-design): It deals with the whole system architecture.
   
   <br>
 </details>
@@ -149,6 +149,20 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
 
   
 ## LLD(Low Level Design)
+ <br>
+  Most commonly the architecture of an application is divided in layers. 
+  <ol>
+        <li>
+  UI Layer(User Interface/ API)
+        </li>
+        <li>
+  Business Logic Layer(BLL)
+        </li>
+        <li>
+  Data Access Layer(DAL)
+        </li>
+  </ol>
+ 
   
 <br><br> 
   
