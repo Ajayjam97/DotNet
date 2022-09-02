@@ -125,7 +125,7 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   <br>
   Software architecture has 2 levels of architecture (LLD & HLD) <br>
   
-  [LLD](#lld)
+  [LLD](#lld(low-level-design))
   
   <br>
 </details>
@@ -145,7 +145,11 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
 <ul>
 <br>
   
-### LLD
+### LLD(Low Level Design)
+  
+  <br><br>
+  
+### HLD(High Level Design)
 
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
