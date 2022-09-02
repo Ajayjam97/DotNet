@@ -69,38 +69,49 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 ## System Architecture process
 
 <details>
-<summary>1. Understand System's requiremnts.</summary>
+<summary>1. Understand System's requirements.</summary>
 <br>
+  Understand the requirements and goal of the application.  
 </details>
 
 <details>
-<summary>2. Understand Non-FUnctional requirements.</summary>
+<summary>2. Understand Non-Functional requirements.</summary>
 <br>
+  Define technical & service level attributes.(# of Users, Loads, Volume, Performance)
+  Techincal requirements are not always known to the client or business & its your job to help them formulate these requirements.
 </details>
 
 <details>
 <summary>3. Map the components.</summary>
 <br>
+  Helps understand the system functionality and communicate the basic working idea to client.
 </details>
 
 <details>
 <summary>4. Select technology stack.</summary>
 <br>
+  Usually involves technologies for Backend, Fornt-end & Database. The choices need to be very rational as a wrong combination of tech stack 
+  can lead to integration problems and errors in future.
 </details>
 
 <details>
 <summary>5. Design the system architecture.</summary>
 <br>
+  Using data & requirement gathering in previous four steps design the architecture of your solution. Make sure the system is fast, secure, 
+  reliable & easy to maintain.
+  Some quailites of a good system design are: (Loose Coupling, Stateless, Scaling, Caching, Messaging, Logging, Monitoring etc)
 </details>
 
 <details>
 <summary>6. Write architecture document.</summary>
 <br>
+  Combine all the efforts into a document that expalins the working, functionalities & technical dependencies of the system.
 </details>
 
 <details>
 <summary>7. Develop & support your team.</summary>
 <br>
+  Finally, develop along and duide your team. Make changes & other decisions if required. 
 </details>
   
 
