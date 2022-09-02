@@ -124,8 +124,8 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   reliable & easy to maintain. Some quailites of a good system design are: (Loose Coupling, Stateless, Scaling, Caching, Messaging, Logging, Monitoring etc)
   <br>
   Software architecture has 2 levels of architecture (LLD & HLD) <br>
-  [CONTRIBUTE](#lld)
-  HLD(High Level Design)
+  [LLD](#lld)
+  
   <br>
 </details>
 
@@ -144,7 +144,7 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
 <ul>
 <br>
   
-## LLD
+### LLD
 
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
