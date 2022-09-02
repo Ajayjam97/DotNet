@@ -179,6 +179,8 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   ```
   <br><br> 
   
+Also there should be proper exception handeling at every layer that does not allows exceptions of the lower layer to be visible to the one above it. That means Exception related to SQL should not be thrown from DAL to BLL, instead they should be logged in some place and only a minimal message should be passed to BLL, like "Data exception encountered".
+  
 ## HLD(High Level Design)
 
 
