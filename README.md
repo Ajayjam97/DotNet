@@ -59,11 +59,7 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 
 ## Baseline requirement of any Solution/Application
 
-1. Fast
-2. Secure
-3. Reliable
-4. Easy to maintain
-
+<b>The solution provided should be fast, secure, reliable & easy to maintain at the least.</b>
 (Other than the techinal aspect of the application you also need to make sure you know the weakness, strengths, competition & growth startegy of the business for which you are planning to solution.)
 
 ## System Architecture process
@@ -133,12 +129,7 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   Finally, develop along and guide your team. Make changes & other decisions if required. 
 </details>
 
-<br><br>
 <ul>
-  
-
-
-
   
 
 
