@@ -121,8 +121,12 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
 <summary>5. Design the system architecture.</summary>
 <br>
   Using data & requirement gathering in previous four steps design the architecture of your solution. Make sure the system is fast, secure, 
-  reliable & easy to maintain.
-  Some quailites of a good system design are: (Loose Coupling, Stateless, Scaling, Caching, Messaging, Logging, Monitoring etc)
+  reliable & easy to maintain. Some quailites of a good system design are: (Loose Coupling, Stateless, Scaling, Caching, Messaging, Logging, Monitoring etc)
+  <br>
+  Software architecture has 2 levels of architecture (LLD & HLD)
+  [[LLD|## LLD(Low Level Design]]
+  HLD(High Level Design)
+  <br>
 </details>
 
 <details>
@@ -138,7 +142,15 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
 </details>
 
 <ul>
+<br>
   
+## LLD(Low Level Design)
+  <br>
+## HLD(High Level Design)
+  <br>
+
+[[LLD|## LLD(Low Level Design]]
+[Link-name2](#Header2)
 
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
