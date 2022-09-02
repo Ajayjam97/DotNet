@@ -99,14 +99,14 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 <br>
   Usually involves technologies for Backend, Fornt-end & Database. The choices need to be very rational as a wrong combination of tech stack 
   can lead to integration problems and errors in future. It needs to be a team decision for each backend, frontend & database technologies. The technology stack selected should have an active community, popular/trending as compared to its peers.
-          <br><br>
+<br>
 Backend (Nodejs, .Net Core, Java, Python)
           <br>
 Frontend (React, Angular)
           <br>
 Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   <br><br>
-  Make sure to check quality attributes (Scalability, Manageability, Modularity, Extensibility, Testability)<br>
+  Make sure to check quality attributes (Scalability, Manageability, Modularity, Extensibility, Testability)<br><br>
   <ul>
     <li>
   Scalability: There should be no change in code when scaling is required. Scaling is of 2 types (Scale up-Vertical  & Scale out-Horizontal). Scale out is preffered due to no SPOF, no limit to increase in compute.
