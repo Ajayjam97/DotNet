@@ -160,7 +160,7 @@ Make sure to check quality attributes (Scalability, Manageability, Modularity, E
 
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
-<img src="https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png" width="100" height="200" />
+<img src="https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png" width="400" height="400" />
 
 
 
