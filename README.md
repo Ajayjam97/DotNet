@@ -106,7 +106,15 @@ Frontend (React, Angular)
           <br>
 Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   <br><br>
-  Make sure to check quality attributes (Scalability, Manageability, Modularity, Extensibility, Testability)<br><br>
+  Make sure to check quality attributes (Scalability, Manageability, Modularity, Extensibility, Testability)<br>
+  <ul>
+    <li>
+  Scalability: There should be no change in code when scaling is required. Scaling is of 2 types (Scale up-Vertical  & Scale out-Horizontal). Scale out is preffered due to no SPOF, no limit to increase in compute.
+    </li>
+    <li> </li>
+    <li> </li>
+    <li> </li>
+    <li> </li>
 </details>
 
 <details>
