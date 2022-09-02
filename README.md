@@ -117,6 +117,7 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 
 
 Discuss functional requirements like (User login, User roles, User operations, Application functionalities etc)
+<br>
 Discuss Non-functional requirements:
 1. Performance: In performance we look for the latency & throughtput of the system. By latency we mean that how much time an operation takes 
    in the application (Example: Storing new user data takes 30ms). By throughput we mean that how many operations can be completed in a given
