@@ -117,6 +117,7 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 
 <br><br>
 <ul>
+  
   <li>
 Discuss functional requirements like (User login, User roles, User operations, Application functionalities etc)
     </li>
@@ -148,7 +149,6 @@ Frontend (React, Angular)
 Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
           </li>
 <br>
-  
         <li>
 Make sure to check quality attributes (Scalability, Manageability, Modularity, Extensibility, Testability)
           </li>
@@ -160,7 +160,7 @@ Make sure to check quality attributes (Scalability, Manageability, Modularity, E
 
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
-![image](https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png)
+![image](https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png | width=100)
 
 
 
