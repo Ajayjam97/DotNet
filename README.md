@@ -72,12 +72,13 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 <summary>1. Understand System's requirements.</summary>
 <br>
   Understand the requirements and goal of the application.  
+  Business Flows (Login, Store data, Create Data)
 </details>
 
 <details>
 <summary>2. Understand Non-Functional requirements.</summary>
 <br>
-  Define technical & service level attributes.(# of Users, Loads, Volume, Performance)
+  Define technical & service level attributes.(# of Users, Loads, Volume, Performance, Concurrent Users, SLA etc.)
   Techincal requirements are not always known to the client or business & its your job to help them formulate these requirements.
 </details>
 
@@ -113,6 +114,18 @@ This really helps to make it feel & look like Visual studio for the DotNet devel
 <br>
   Finally, develop along and duide your team. Make changes & other decisions if required. 
 </details>
+
+
+Discuss functional requirements like (User login, User roles, User operations, Application functionalities etc)
+Discuss Non-functional requirements:
+1. Performance: In performance we look for the latency & throughtput of the system. By latency we mean that how much time an operation takes 
+   in the application (Example: Storing new user data takes 30ms). By throughput we mean that how many operations can be completed in a given
+   time (Example: Storing data of 40 users can take 1s)
+2. Load: By load we mean to what extreme can the system handle the load without crashing (Example: In a WebAPI how many concurrent requests
+   can the system handle.) If company A recieves 100 requests/sec daily, what if on a Black Friday Sale it recieves 1000 requests/sec. 
+3. Data volume: How much data system will acquire over time. This helps is deciding the Database, planning Query design & Storage.
+4. Concurrent Users: How many users will be using the system concurrently. (Here not every user is making requests/performing operations)
+5. SLA: Be practical about the SLA. 99.999% should not be the straight away answer. 
   
 
 
