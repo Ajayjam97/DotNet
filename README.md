@@ -148,14 +148,15 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
 <br>
 
   
-### LLD(Low Level Design)
+## LLD(Low Level Design)
   
 <br><br> 
   
-### HLD(High Level Design)
+## HLD(High Level Design)
 
 
 ## If you are planning to develop your solution on cloud follow the below flowchart
+  <br><br>
 <img src="https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png" width="700" height="500" />
 
 
