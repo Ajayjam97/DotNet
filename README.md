@@ -111,10 +111,10 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
     <li>
   Scalability: There should be no change in code when scaling is required. Scaling is of 2 types (Scale up-Vertical  & Scale out-Horizontal). Scale out is preffered due to no SPOF, no limit to increase in compute.
     </li>
-    <li> </li>
-    <li> </li>
-    <li> </li>
-    <li> </li>
+    <li>Manageability: A manageable system constantly monitors the application and takes actions accordingly. If the user is reproting the issue/error encountered instead of the application keeping log and handeling the error, then that application is not maneageable.</li>
+    <li>Modularity: The written code should be modular so that it is easy to understand, modify & reuse in future.</li>
+    <li>Extensibility: If a new functionality is required, the whole implemented code should not be affected. The code should have been writen in a manner that it is extensible. Eg: An API contains switch statement to reutrn JSON/XML data based on the format type value passed in query string, now if in future CSV needs to be passed as a value in the query string no switch case has been written for CSV. But it could have been made extensible if Dependecy Injection was used instead.</li>
+    <li>Testability: The codeshould be Unit & Integrated testable. There should be implementations to perform unit & integration testing on the solution. This helps in POC & prevention of error-prone implementations.</li>
 </details>
 
 <details>
