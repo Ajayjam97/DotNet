@@ -251,7 +251,7 @@ Also there should be proper exception handeling at every layer that does not all
   Design patterns can be of following types:  
   <details>
     <summary> Creational patterns</summary>
-   
+    https://refactoring.guru/design-patterns/factory-method
   </details>
   
   <details>
