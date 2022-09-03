@@ -296,7 +296,10 @@ Also there should be proper exception handeling at every layer that does not all
   
   <details>
     <summary> Messaging</summary>
-
+    REST API (ASP.NET Web API, Flask, Spring)
+    HTTP Push Notifications: Pub Sub model (SignalR, Socket.io)
+    Queue (RabbitMQ, MQ Series)
+    File / Database based
   </details>
   
   <details>
