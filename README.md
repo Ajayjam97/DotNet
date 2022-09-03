@@ -281,17 +281,17 @@ Also there should be proper exception handeling at every layer that does not all
   Metrics to consider for HLD:  
   <details>
     <summary> Loose Coupling</summary>
-   
+   There should be loose coupling between the services. If there are multiple services communicating with eachother, any change in the ip/connection of a single service would disturb the flow of other services and the tightly coupled linkages have to be modified. This tighly coupling can be removed using Yellow pages or a Mediator service.
   </details>
   
   <details>
     <summary> Stateless</summary>
-  
+  Always try to store state or session data at UI/Database. Never store Satate/Session data in the running code. If scaling has to take place or new servers are introduced with another instance, the load balancer would switch to the instance with less load. This would be a blunder as the state of the user is in another instance and he might get, re-login/No-access or other issues with the state that he was in.
   </details>
   
   <details>
     <summary> Caching</summary>
-
+  Caching helps to retirve frequently used data faster and improves UX for the users. But choosing the right cache is important. If the data is realtime and you are using In Memory cahce then it would not contain the latest synced data from the Datasource. Although In Memory cache is easy to implement & much more faster, but it will fail as compared to a Distributed cache in this case.
   </details>
   
   <details>
