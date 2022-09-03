@@ -263,14 +263,53 @@ Also there should be proper exception handeling at every layer that does not all
     <summary> Behavioral patterns</summary>
     https://refactoring.guru/design-patterns/command
   </details>
-  
    
+ <br>
   
-  
-  <br><br>
 ## HLD(High Level Design)
+  
+  <br>
+  High level design of the system architecture is not about the low leve details, but about the bigger picture.
+  It asks questions like:<br>
+  1. How will the system perform under heavy load.<br>
+  2. WHat will happen if the system crashes at this exact moment.<br>
+  3. How complicated can be the update process for system.<br><br>
+  
+  It includes defining the software components(services), defining the way these components communicate, designing the system capabilities (scalability, redundancy,     performance, etc).
+  <br><br>
+  
+  Metrics to consider for HLD:  
+  <details>
+    <summary> Loose Coupling</summary>
+   
+  </details>
+  
+  <details>
+    <summary> Stateless</summary>
+  
+  </details>
+  
+  <details>
+    <summary> Caching</summary>
 
+  </details>
+  
+  <details>
+    <summary> Messaging</summary>
 
+  </details>
+  
+  <details>
+    <summary> Logging & monitoring</summary>
+
+  </details>
+   
+ <br>
+  
+  
+  
+
+<br><br>
 ## If you are planning to develop your solution on cloud follow the below flowchart
   <br><br>
 <img src="https://user-images.githubusercontent.com/21179880/188014963-ff8a952e-534d-41c8-a7fd-a204cc0cc709.png" width="700" height="500" />
