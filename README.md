@@ -296,15 +296,15 @@ Also there should be proper exception handeling at every layer that does not all
   
   <details>
     <summary> Messaging</summary>
-    REST API (ASP.NET Web API, Flask, Spring)
-    HTTP Push Notifications: Pub Sub model (SignalR, Socket.io)
-    Queue (RabbitMQ, MQ Series)
+    REST API (ASP.NET Web API, Flask, Spring), 
+    HTTP Push Notifications: Pub Sub model (SignalR, Socket.io), 
+    Queue (RabbitMQ, MQ Series), 
     File / Database based
   </details>
   
   <details>
     <summary> Logging & monitoring</summary>
-
+    Logs of the entire system with multiple services must be centrally stored & should follow a single format.
   </details>
    
  <br>
