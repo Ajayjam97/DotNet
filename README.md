@@ -149,8 +149,9 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
 
   
 ## LLD(Low Level Design)
- <br>
-  Most commonly the architecture of an application is divided in layers. 
+ 
+  ### Most commonly the architecture of an application is divided in 3 layers. 
+  
   <ul>
         <li>
   UI Layer(User Interface/ API)
@@ -176,11 +177,11 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   ```
   <br>
 Also there should be proper exception handeling at every layer that does not allows exceptions of the lower layer to be visible to the one above it. That means Exception related to SQL should not be thrown from DAL to BLL, instead they should be logged in some place and only a minimal message should be passed to BLL, like "Data exception encountered".
-  <br><br>
-  <b>There are 2 methods of using DI (Factory method & Consructor)</b>
   <br>
-  <br>  
-  Factory method<br><br>
+  
+  ### There are 2 methods of using DI (Factory method & Consructor)
+  
+  Factory method<br>
   
   ```
   ICalculator calc=GetInstance(); 
@@ -205,6 +206,36 @@ Also there should be proper exception handeling at every layer that does not all
     }
   }
   ```
+  
+  ### SOLID Principles
+  
+  <details>
+    <summary>Single Responsibility http://www.blackwasp.co.uk/SRP.aspx </summary>
+    Each class, module/method should have one and only one, responsibility. 
+  </details>
+  
+  <details>
+    <summary>Open/Closed http://www.blackwasp.co.uk/OCP.aspx </summary>
+    A software entity should be open for extension but closed for modification. It can be implemented using class inheritance & Plugin methods.
+  </details>
+  
+  <details>
+    <summary>Liskov Substitution http://www.blackwasp.co.uk/LSP.aspx </summary>
+    If S is a subtype of T, then objects of type T may be replaced with objects of type S, without altering any of the desired properties of the program.
+    Liskov Substitution does not talks about the run time polymorphism, but it deals with Behavioral subtyping.
+    The methods in parent T should not be hidden from S, if that happens then while substituting exceptions & unwanted results can be encountered.
+  </details>
+  
+  <details>
+    <summary>Interface Segregation http://www.blackwasp.co.uk/ISP.aspx </summary>
+    Many client-specific interfaces are better than one general-purpose interface.
+  </details>
+  
+  <details>
+    <summary>Dependency Inversion http://www.blackwasp.co.uk/DIP.aspx </summary>
+    Where ever possible perform dependency injection to make classes loosely coupled from their implementations.
+  </details>
+   
   
   
 ## HLD(High Level Design)
