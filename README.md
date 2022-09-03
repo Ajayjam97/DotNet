@@ -235,9 +235,19 @@ Also there should be proper exception handeling at every layer that does not all
     <summary>Dependency Inversion http://www.blackwasp.co.uk/DIP.aspx </summary>
     Where ever possible perform dependency injection to make classes loosely coupled from their implementations.
   </details>
+  <br>
+  Logging should be the major system to be integrated into your application. It not only helps to catch errors & exceptions but also to gather data such as 
+  Most visited modules, Performance, User flow's etc. This data is rich and extremely valuable for any organization.
+  <br>
+  
+  ### Design Patterns
+  <br>
+  Design patterns refer to the patterns of implementation that are ideal to be followed in some common situation/scenarios.
+  
    
   
   
+  <br><br>
 ## HLD(High Level Design)
 
 
