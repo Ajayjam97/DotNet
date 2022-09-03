@@ -151,7 +151,7 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
 ## LLD(Low Level Design)
  <br>
   Most commonly the architecture of an application is divided in layers. 
-  <ol>
+  <ul>
         <li>
   UI Layer(User Interface/ API)
         </li>
@@ -161,7 +161,7 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
         <li>
   Data Access Layer(DAL)
         </li>
-  </ol>
+  </ul>
   <br> 
   As per the code flow the layer above should consume the layer below. That means BLL consumes the objects of DAL to connect with Database and execute logics on the data. But if you are using Concrete classes to access DAL than there might be an issue of tight coupling. If you want to change the whole DAL layer, then you might have to change modify the calls made to DAL object in BLL as well.<br>
   To resolve this we use DI(Dependency injection) to refernece DAL layer in BLL code. This introduces Loose coupling.
@@ -170,29 +170,30 @@ Databse SQL(SQL Server, Postgre) & NoSQL(MongoDB)
   ```
   DAL dal = new DAL();  //Tight coupling
   var entity=dal.GetData(100);
-  ```
-  <br>
-  
-  ```
+ 
   IDAL dal = new DAL(); //Loose coupling
   var entity=dal.GetData(100);
   ```
   <br>
 Also there should be proper exception handeling at every layer that does not allows exceptions of the lower layer to be visible to the one above it. That means Exception related to SQL should not be thrown from DAL to BLL, instead they should be logged in some place and only a minimal message should be passed to BLL, like "Data exception encountered".
-  <br>
-  There are 2 methods of using DI (Factory method & Consructor)
   <br><br>
-  Factory method<br>
+  <b>There are 2 methods of using DI (Factory method & Consructor)</b>
+  <br>
+  <br>  
+  Factory method<br><br>
   
   ```
   ICalculator calc=GetInstance(); 
   //Returns new Calculator() instance.
+  
   ICalculator calc=GetInstance("Advanced"); 
   //Here instance depends on a value that can be provided as a parameter / through connection string.
   ```
-  Constructor<br>
+  
+  Constructor
   
   ```
+  
   public class HomeController: Controller
   {
   
