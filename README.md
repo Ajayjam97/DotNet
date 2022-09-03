@@ -240,9 +240,29 @@ Also there should be proper exception handeling at every layer that does not all
   Most visited modules, Performance, User flow's etc. This data is rich and extremely valuable for any organization.
   <br>
   
-  ### Design Patterns
+  ### Design Patterns https://refactoring.guru/design-patterns/csharp
   
-  Design patterns refer to the patterns of implementation that are ideal to be followed in some common situation/scenarios.
+  Design patterns refer to the patterns of implementation that are ideal to be followed in some common situation/scenarios. These scenarios can be :
+  How to communicate between classes, 
+  How to initialize interface implementations, 
+  How to access datastores, 
+  etc....
+  <br><br>
+  Design patterns can be of following types:  
+  <details>
+    <summary> Creational patterns</summary>
+   
+  </details>
+  
+  <details>
+    <summary> Structural patterns</summary>
+   
+  </details>
+  
+  <details>
+    <summary> Behavioral patterns</summary>
+   
+  </details>
   
    
   
