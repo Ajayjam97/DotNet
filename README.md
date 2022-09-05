@@ -416,7 +416,15 @@ Also there should be proper exception handeling at every layer that does not all
   <li>Documentation tools (Swagger UI, Readme.io, Gelato)</li>
   <li>Testing tools (Postman, Hoverfly, REST-Assured)</li>
   </ul>
-
+  
+  <br>
+  Some good reads:<br>
+  
+  https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
+  
+  https://databaserefactoring.com/
+  
+  <br>
   
   
 
