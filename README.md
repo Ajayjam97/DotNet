@@ -372,6 +372,33 @@ Also there should be proper exception handeling at every layer that does not all
         </li>
     </ul>
   </details>
+  
+  <details>
+    <summary> Containerization of Microservices</summary>
+   A container image of your application or microservice should be created first. It is an executable software package that contains everything reuqired to run your containerized application/service, including code, libraries, configuration, and runtime. A container image becomes a contianer at runtime. If your solution has multiple microservices it becomes necessary to use contianer orchestration. Container orchestration helps to automate following tasks:
+    <ul>
+        <li>
+      Container deployment & provisioning
+        </li>
+      <li>
+      Rescheduling of failed containers
+        </li><li>
+      Scaling & load balancing of container instances
+        </li>
+      <li>
+      Resource allocation between containers
+        </li>
+      <li>
+      Contianer redundancy & availability.
+        </li>
+      <li>
+      External exposure services
+        </li>
+      <li>
+      Health monitoring of containers & hosts
+        </li>
+    </ul>
+  </details>
 
   
   
