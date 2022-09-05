@@ -309,6 +309,11 @@ Also there should be proper exception handeling at every layer that does not all
    
  <br>
   
+ ## Advance system architecture
+  
+  A typical Microservice architecture contains Frontend clients(Web app, Mobile app etc), API Gateway, Cache, Authentication service, Multiple services running in a container host (Docker host etc), Message Broker/Event Bus.
+  ![image](https://user-images.githubusercontent.com/21179880/188401353-1f62f5d6-528e-4aeb-bd93-eaecf4f29926.png)
+
   
   
 
