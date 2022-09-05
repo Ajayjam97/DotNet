@@ -399,6 +399,23 @@ Also there should be proper exception handeling at every layer that does not all
         </li>
     </ul>
   </details>
+  
+  <br>
+  
+  ### Tools & technologies for implementing Micorservices architecture
+  
+  <ul>
+  <li>Frameworks (Spring Boot, ASP .Net Core, Molecular)</li>
+  <li>Conatiner technologies (Docker, CoreOS, OpenVz, Containered)</li>
+  <li>Container Orchestration (Kubernetes, Docker Swarm, OpenShift, Amazon ECs, Azure Kubernetes Service)</li>
+  <li>Service Discovery (Consul, Apache ZooKeeper, Eureka)</li>
+  <li>API Gateways (Kong, Ocelot, AWS API Gateway, Azure Application Gateway, Spring Cloud Gateway)</li>
+  <li>Event Bus (Apache Kafka, RabbitMQ, Azure Service Bus, Amazon SQS, Google cloud Pub/Sub)</li>
+  <li>Logging tools (Kibana, Logstash, Graylog)</li>
+  <li>Monitoring tools (Grafana, Prometheus, cAdvisor)</li>
+  <li>Documentation tools (Swagger UI, Readme.io, Gelato)</li>
+  <li>Testing tools (Postman, Hoverfly, REST-Assured)</li>
+  </ul>
 
   
   
