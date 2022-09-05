@@ -316,8 +316,62 @@ Also there should be proper exception handeling at every layer that does not all
   ![image](https://user-images.githubusercontent.com/21179880/188401353-1f62f5d6-528e-4aeb-bd93-eaecf4f29926.png)
   
   <br>
-  Data management between multiple microservices is maintained using CQRS(Command Query Responsibility Segregation) design pattern and a Message Broker/Event Bus that performs Event sourcing. In CQRS the services that perform <b>Command</b> i.e. Create, Update, Delete operations are seperated & write data to a proper Relational Database. After every write operation the event is published to an Event Bus. This Event Bus is subscribed by multiple NOSQL Databases which gets updated & the sevices that perform <b>Query</b> i.e. Retrieve operations can read from those Databases.
-  <br>
+  <details>
+    <summary> Securing Microservices</summary>
+   Using external authentication provider such as OAuth 2.0. OAuth provides clients with secured delegated access to resources. Instead of credentials, an authorization token provided by an authorization server is used to access microservices. 
+  </details>
+  
+  <details>
+    <summary> Data Management for Micro Services</summary>
+    Data management between multiple microservices is maintained using CQRS(Command Query Responsibility Segregation) design pattern and a Message Broker/Event Bus that performs Event sourcing. In CQRS the services that perform <b>Command</b> i.e. Create, Update, Delete operations are seperated & write data to a proper Relational Database. After every write operation the event is published to an Event Bus. This Event Bus is subscribed by multiple NOSQL Databases which gets updated & the sevices that perform <b>Query</b> i.e. Retrieve operations can read from those Databases.
+  </details>
+  
+  <details>
+    <summary> Logging for Micro Services</summary>
+    Following values should be logged:
+    <ul>
+        <li>
+      Exceptions
+        </li>
+        <li>
+      All requests, response & HTTP codes
+        </li>
+        <li>
+  Microservice Response time
+        </li>
+      <li>
+  Events logged to event bus
+        </li>
+      <li>
+  All login/access token (JWT) requests that are made by client applications
+        </li>
+  </ul>
+  </details>
+  
+  <details>
+    <summary> Monitoring & Alering in Microservices</summary>
+   Following values should be monitored:
+    <ul>
+        <li>
+      Uptime of Microservices
+        </li>
+      <li>
+      Average response time of each microservice
+        </li>
+      <li>
+      Resource consumption of each microservice
+        </li>
+      <li>
+      Success/Failure ratio of Microservices
+        </li>
+      <li>
+      Access frequency of client request
+        </li>
+      <li>
+      Infrastructure dependencies
+        </li>
+    </ul>
+  </details>
 
   
   
