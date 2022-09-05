@@ -313,6 +313,10 @@ Also there should be proper exception handeling at every layer that does not all
   
   A typical Microservice architecture contains Frontend clients(Web app, Mobile app etc), API Gateway, Cache, Authentication service, Multiple services running in a container host (Docker host etc), Message Broker/Event Bus.
   ![image](https://user-images.githubusercontent.com/21179880/188401353-1f62f5d6-528e-4aeb-bd93-eaecf4f29926.png)
+  
+  <br>
+  Data management between multiple microservices is maintained using CQRS(Command Query Responsibility Segregation) design pattern and a Message Broker/Event Bus that performs Event sourcing. In CQRS the services that perform <b>Command</b> i.e. Create, Update, Delete operations are seperated & write data to a proper Relational Database. After every write operation the event is published to an Event Bus. This Event Bus is subscribed by multiple NOSQL Databases which gets updated & the sevices that perform <b>Query</b> i.e. Retrieve operations can read from those Databases.
+  <br>
 
   
   
