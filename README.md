@@ -251,7 +251,10 @@ Also there should be proper exception handeling at every layer that does not all
   Design patterns can be of following types:  
   <details>
     <summary> Creational patterns</summary>
-    https://refactoring.guru/design-patterns/factory-method
+    https://refactoring.guru/design-patterns/factory-method <br>
+    https://refactoring.guru/design-patterns/singleton <br>
+    https://refactoring.guru/design-patterns/builder <br>
+    https://refactoring.guru/design-patterns/prototype
   </details>
   
   <details>
