@@ -259,7 +259,9 @@ Also there should be proper exception handeling at every layer that does not all
   
   <details>
     <summary> Structural patterns</summary>
-    https://refactoring.guru/design-patterns/facade
+    https://refactoring.guru/design-patterns/adapter <br>
+    https://refactoring.guru/design-patterns/bridge <br>
+    https://refactoring.guru/design-patterns/facade 
   </details>
   
   <details>
