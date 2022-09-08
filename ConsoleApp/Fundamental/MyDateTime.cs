@@ -11,6 +11,7 @@ namespace ConsoleApp.Fundamental{
             Console.WriteLine(DateTime.MaxValue);
 
         }
+        
     }
 
 }
