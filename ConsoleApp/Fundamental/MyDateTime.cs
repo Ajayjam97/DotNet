@@ -8,6 +8,8 @@ namespace ConsoleApp.Fundamental{
         public static void work(){
             DateTime dt=new DateTime();
             Console.WriteLine(dt);
+            Console.WriteLine(DateTime.MaxValue);
+
         }
     }
 
