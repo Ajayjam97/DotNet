@@ -252,6 +252,7 @@ Also there should be proper exception handeling at every layer that does not all
   <details>
     <summary> Creational patterns</summary>
     https://refactoring.guru/design-patterns/factory-method <br>
+    https://refactoring.guru/design-patterns/abstract-factory<br>
     https://refactoring.guru/design-patterns/singleton <br>
     https://refactoring.guru/design-patterns/builder <br>
     https://refactoring.guru/design-patterns/prototype
@@ -260,14 +261,23 @@ Also there should be proper exception handeling at every layer that does not all
   <details>
     <summary> Structural patterns</summary>
     https://refactoring.guru/design-patterns/adapter <br>
-    https://refactoring.guru/design-patterns/bridge <br>
-    https://refactoring.guru/design-patterns/facade 
+    https://refactoring.guru/design-patterns/facade  <br>
+    https://refactoring.guru/design-patterns/decorator
   </details>
   
   <details>
     <summary> Behavioral patterns</summary>
-    https://refactoring.guru/design-patterns/command
+    https://refactoring.guru/design-patterns/strategy <br>
+    https://refactoring.guru/design-patterns/observer <br>
+    https://refactoring.guru/design-patterns/command <br>
+    https://refactoring.guru/design-patterns/state <br>
+    
   </details>
+  
+  <br> 
+  Most Common Design Patterns: 
+  (Factory, Abstract Factory, Singleton, Observer)
+  (Builder, Decorator, Adapter, Strategy, Facade)
    
  <br>
   
