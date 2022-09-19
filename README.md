@@ -324,7 +324,26 @@ Also there should be proper exception handeling at every layer that does not all
    
  <br>
  
-HLD System desing mostly deals with designing a large scale system. It focuses mainly on a distributed system & its working. Some forethought into a scalab;e design for the system cna save valuable time & resources in future. Some of the core building blocks of a scalable system are Consistent Hashing, CAP Theorem, Load Balancing, Caching, Data Partitioning, Indexes, Proxies, Queues, Replication & choosing SQL Vs NoSQL.
+HLD System desing mostly deals with designing a large scale system. It focuses mainly on a distributed system & its working. Some forethought into a scalable design for the system cna save valuable time & resources in future. Some of the core building blocks of a scalable system are Consistent Hashing, CAP Theorem, Load Balancing, Caching, Data Partitioning, Indexes, Proxies, Queues, Replication & choosing SQL Vs NoSQL.
+  
+ ### Charachteristics of a good HLD
+ <details>
+    <summary>Scalability</summary>
+You should be able to scale horizontally or vertically as per need. Mostly horizontal scaling is prefferd over vertical. A good example of horizontally scalable DBs are Cassandra & MongoDB. 
+  </details>
+  
+  
+  <details>
+    <summary>Reliability</summary>
+  We make a system more reliable by introducing redundancy in the architecture to prevent SPOF.
+  </details>
+  
+  
+  <details>
+    <summary>Availability</summary>
+  If a system is reliable it would be available as well, but if a system is available it doesnot implies that it would be reliable as well. Example: A web application guarantees high availability because of dedicated power & servers it has deployed, but there might be a securirty loophole which might lead to security breach, downtime, & other related issues.
+  </details>
+
   
  ## Advance system architecture
   
