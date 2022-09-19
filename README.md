@@ -284,10 +284,10 @@ Also there should be proper exception handeling at every layer that does not all
 ## HLD(High Level Design)
   
   <br>
-  High level design of the system architecture is not about the low leve details, but about the bigger picture.
+  High level design of the system architecture is not about the low level details, but about the bigger picture.
   It asks questions like:<br>
   1. How will the system perform under heavy load.<br>
-  2. WHat will happen if the system crashes at this exact moment.<br>
+  2. What will happen if the system crashes at this exact moment.<br>
   3. How complicated can be the update process for system.<br><br>
   
   It includes defining the software components(services), defining the way these components communicate, designing the system capabilities (scalability, redundancy,     performance, etc).
@@ -323,6 +323,8 @@ Also there should be proper exception handeling at every layer that does not all
   </details>
    
  <br>
+ 
+HLD System desing mostly deals with designing a large scale system. It focuses mainly on a distributed system & its working. Some forethought into a scalab;e design for the system cna save valuable time & resources in future. Some of the core building blocks of a scalable system are Consistent Hashing, CAP Theorem, Load Balancing, Caching, Data Partitioning, Indexes, Proxies, Queues, Replication & choosing SQL Vs NoSQL.
   
  ## Advance system architecture
   
