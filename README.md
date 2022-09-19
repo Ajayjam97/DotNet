@@ -343,6 +343,18 @@ You should be able to scale horizontally or vertically as per need. Mostly horiz
     <summary>Availability</summary>
   If a system is reliable it would be available as well, but if a system is available it doesnot implies that it would be reliable as well. Example: A web application guarantees high availability because of dedicated power & servers it has deployed, but there might be a securirty loophole which might lead to security breach, downtime, & other related issues.
   </details>
+  
+  <details>
+    <summary>Efficiency</summary>
+  For efficiency we look for the latency & throughtput of the system. By latency we mean that how much time an operation takes in the application (Example: Storing new user data takes 30ms). By throughput we mean that how many operations can be completed in a given time (Example: Storing data of 40 users can take 1s)
+</details>
+
+
+ <details>
+    <summary>Manageable</summary>
+ A system should be easily manageable for future extensions and uses.
+</details>
+
 
   
  ## Advance system architecture
