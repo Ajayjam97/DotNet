@@ -360,7 +360,11 @@ You should be able to scale horizontally or vertically as per need. Mostly horiz
   
   <details>
     <summary>Load Balancing</summary>
+  A Load Balancer helps to spread the traffic across a cluster of servers to improve responsiveness and availability of applications, websites or databases. Typically a LB sits between client and the server accepting incoming network and application traffic and distributing the traffic across multiple servers, using various algorithms.By Balancing application requests across multiple servers, LB reduces sinlge load on a server preventing SPOF & increasing availability. 
+   
  
+    
+Hardware LBs are expensive but provide high performance. Large companies tend to avoid this configuration or use it as a first point of contact too their system to server user requests. Software LBs use differnet algorithms for differnet needs like, least connection method, least response time method, least bandwidth method, round robin method, weighted round robin method, IP Hash. 
 </details>
   
   <details>
