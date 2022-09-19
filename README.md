@@ -406,7 +406,7 @@ You should be able to scale horizontally or vertically as per need. Mostly horiz
 </details>
   
   <details>
-    <summary>SQL Vs No SQL</summary>
+    <summary>SQL Vs NOSQL</summary>
  
 </details>
   
