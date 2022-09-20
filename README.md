@@ -384,6 +384,8 @@ Mostly in an application caches are located near to front end which is better th
     
 If the request layer is expanded to mulitple nodes its quite possible for each node to have its own cache. In this case if a load balancer is used to randomly distribute the requests between nodes, the same request might go to different nodes thus increasing cache miss.
 To deal with this problem we can either use Global cache or Distributed cache. A distributed cache uses consistent hashing fucntion to get the cache node in which the data will get stored or retrieved.
+    
+    Cache Eviction Policies(FIFO, LIFO, FILO, LRU, MRU, LFU, Random Replacement)
 </details>
   
   
