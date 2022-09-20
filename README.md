@@ -527,6 +527,8 @@ Hardware LBs are expensive but provide high performance. Large companies tend to
   <br>
   Some good reads:<br>
   
+  https://github.com/donnemartin/system-design-primer
+  
   https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   
   https://databaserefactoring.com/
