@@ -284,10 +284,10 @@ Also there should be proper exception handeling at every layer that does not all
 ## HLD(High Level Design)
   
   <br>
-  High level design of the system architecture is not about the low leve details, but about the bigger picture.
+  High level design of the system architecture is not about the low level details, but about the bigger picture.
   It asks questions like:<br>
   1. How will the system perform under heavy load.<br>
-  2. WHat will happen if the system crashes at this exact moment.<br>
+  2. What will happen if the system crashes at this exact moment.<br>
   3. How complicated can be the update process for system.<br><br>
   
   It includes defining the software components(services), defining the way these components communicate, designing the system capabilities (scalability, redundancy,     performance, etc).
@@ -323,6 +323,96 @@ Also there should be proper exception handeling at every layer that does not all
   </details>
    
  <br>
+ 
+HLD System desing mostly deals with designing a large scale system. It focuses mainly on a distributed system & its working. Some forethought into a scalable design for the system cna save valuable time & resources in future. Some of the core building blocks of a scalable system are Consistent Hashing, CAP Theorem, Load Balancing, Caching, Data Partitioning, Indexes, Proxies, Queues, Replication & choosing SQL Vs NoSQL.
+  
+ ### Charachteristics of a good HLD
+ <details>
+    <summary>Scalability</summary>
+You should be able to scale horizontally or vertically as per need. Mostly horizontal scaling is prefferd over vertical. A good example of horizontally scalable DBs are Cassandra & MongoDB. 
+  </details>
+  
+  
+  <details>
+    <summary>Reliability</summary>
+  We make a system more reliable by introducing redundancy in the architecture to prevent SPOF.
+  </details>
+  
+  
+  <details>
+    <summary>Availability</summary>
+  If a system is reliable it would be available as well, but if a system is available it doesnot implies that it would be reliable as well. Example: A web application guarantees high availability because of dedicated power & servers it has deployed, but there might be a securirty loophole which might lead to security breach, downtime, & other related issues.
+  </details>
+  
+  <details>
+    <summary>Efficiency</summary>
+  For efficiency we look for the latency & throughtput of the system. By latency we mean that how much time an operation takes in the application (Example: Storing new user data takes 30ms). By throughput we mean that how many operations can be completed in a given time (Example: Storing data of 40 users can take 1s)
+</details>
+
+
+ <details>
+    <summary>Manageable</summary>
+ A system should be easily manageable for future extensions and uses.
+</details>
+
+
+  ### Core Building Blocks of Scaleable system
+  
+  <details>
+    <summary>Load Balancing</summary>
+  A Load Balancer helps to spread the traffic across a cluster of servers to improve responsiveness and availability of applications, websites or databases. Typically a LB sits between client and the server accepting incoming network and application traffic and distributing the traffic across multiple servers, using various algorithms.By Balancing application requests across multiple servers, LB reduces sinlge load on a server preventing SPOF & increasing availability. 
+   
+Hardware LBs are expensive but provide high performance. Large companies tend to avoid this configuration or use it as a first point of contact too their system to server user requests. Software LBs use differnet algorithms for differnet needs like, least connection method, least response time method, least bandwidth method, round robin method, weighted round robin method, IP Hash. 
+</details>
+  
+  
+    <details>
+    <summary>Caching</summary> 
+ Load balancers can help you scale horizontally across an ever increasing number of servers, but caching will enable you to make better use of resources that you have in hand, thus making unattainable product requirements feasible. Caches use the principle of locality of reference & can be placed at almost every layer of computing.
+Mostly in an application caches are located near to front end which is better than moving to server & getting data throught the network.
+    
+If the request layer is expanded to mulitple nodes its quite possible for each node to have its own cache. In this case if a load balancer is used to randomly distribute the requests between nodes, the same request might go to different nodes thus increasing cache miss.
+To deal with this problem we can either use Global cache or Distributed cache. A distributed cache uses consistent hashing fucntion to get the cache node in which the data will get stored or retrieved.
+    
+    Cache Invalidation solutions: (Write-Through, Write around, Write back Caches)
+    
+    Cache Eviction Policies: (FIFO, LIFO, FILO, LRU, MRU, LFU, Random Replacement)    
+</details>
+  
+  
+  <details>
+    <summary>Consistent Hashing</summary>
+</details>
+  
+  <details>
+    <summary>CAP Theorem</summary>
+</details>
+    
+  <details>
+    <summary>Data Partitioning</summary>
+</details>
+  
+  <details>
+    <summary>Indexes</summary>
+</details>
+  
+  <details>
+    <summary>Proxies</summary>
+</details>
+  
+  <details>
+    <summary>Queues</summary> 
+</details>
+  
+  <details>
+    <summary>Replication</summary> 
+</details>
+  
+  <details>
+    <summary>SQL Vs NOSQL</summary>
+</details>
+  
+  
   
  ## Advance system architecture
   
@@ -434,6 +524,8 @@ Also there should be proper exception handeling at every layer that does not all
   
   <br>
   Some good reads:<br>
+  
+  https://github.com/donnemartin/system-design-primer
   
   https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   
