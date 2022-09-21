@@ -358,25 +358,28 @@ You should be able to scale horizontally or vertically as per need. Mostly horiz
 
   ### Core Building Blocks of Scaleable system
   
-  <details>
-    <summary>Load Balancing</summary>
-  A Load Balancer helps to spread the traffic across a cluster of servers to improve responsiveness and availability of applications, websites or databases. Typically a LB sits between client and the server accepting incoming network and application traffic and distributing the traffic across multiple servers, using various algorithms.By Balancing application requests across multiple servers, LB reduces sinlge load on a server preventing SPOF & increasing availability. 
+<details>
+    
+<summary>Load Balancing</summary>
+A Load Balancer helps to spread the traffic across a cluster of servers to improve responsiveness and availability of applications, websites or databases. Typically a LB sits between client and the server accepting incoming network and application traffic and distributing the traffic across multiple servers, using various algorithms.By Balancing application requests across multiple servers, LB reduces sinlge load on a server preventing SPOF & increasing availability. 
    
 Hardware LBs are expensive but provide high performance. Large companies tend to avoid this configuration or use it as a first point of contact too their system to server user requests. Software LBs use differnet algorithms for differnet needs like, least connection method, least response time method, least bandwidth method, round robin method, weighted round robin method, IP Hash. 
     
 </details>
   
-      <details>
+<details>    
     <summary>Caching</summary> 
- Load balancers can help you scale horizontally across an ever increasing number of servers, but caching will enable you to make better use of resources that you have in hand, thus making unattainable product requirements feasible. Caches use the principle of locality of reference & can be placed at almost every layer of computing.
-Mostly in an application caches are located near to front end which is better than moving to server & getting data throught the network.
-    
-If the request layer is expanded to mulitple nodes its quite possible for each node to have its own cache. In this case if a load balancer is used to randomly distribute the requests between nodes, the same request might go to different nodes thus increasing cache miss.
-To deal with this problem we can either use Global cache or Distributed cache. A distributed cache uses consistent hashing fucntion to get the cache node in which the data will get stored or retrieved.
-    
+  Load balancers can help you scale horizontally across an ever increasing number of servers, but caching will enable you to make better use of resources that you        have in hand, thus making unattainable product requirements feasible. Caches use the principle of locality of reference & can be placed at almost every layer of        computing.  Mostly in an application caches are located near to front end which is better than moving to server & getting data throught the network.
+     
+  <br>
+  
+  If the request layer is expanded to mulitple nodes its quite possible for each node to have its own cache. In this case if a load balancer is used to randomly         distribute the requests between nodes, the same request might go to different nodes thus increasing cache miss.
+    To deal with this problem we can either use Global cache or Distributed cache. A distributed cache uses consistent hashing fucntion to get the cache node in which     the data will get stored or retrieved.  
+  
     Cache Invalidation solutions: (Write-Through, Write around, Write back Caches)
     
-    Cache Eviction Policies: (FIFO, LIFO, FILO, LRU, MRU, LFU, Random Replacement)    
+    Cache Eviction Policies: (FIFO, LIFO, FILO, LRU, MRU, LFU, Random Replacement) 
+  
 </details>
    
   
