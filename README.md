@@ -407,6 +407,8 @@ Partition Criterias: Key/Hash Based, List, Round-Robin, Composite
   
   <details>
     <summary>Indexes</summary>
+    Database indexing is not recommended for an application with intensive use of write operations. It only provides efficiency for Databases where there is high usage of read operations.
+    https://en.wikipedia.org/wiki/Database_index
 </details>
   
   <details>
