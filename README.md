@@ -393,6 +393,14 @@ Hardware LBs are expensive but provide high performance. Large companies tend to
     
   <details>
     <summary>Data Partitioning</summary>
+    When database size increases, it becomes necessary to divide data to multiple smaller DBs. To achieve the efficiency, we do partitioning of a database.
+    The partitioning can be Horizontal or Vertical.
+        
+    In Horizontal partitioning we divide the records in a DB based on the number of row. Mostly it should be an equitable partitioning. That is half the number of rows should be in one DB and half in the other.
+    
+    
+    In Vertical partitioning we divide the tables in between different DB servers based on the usage. Example all table/Data store related to the User Profile can be kept in one DB, others related to Application in other & other specifc tables in some other DB.
+    
 </details>
   
   <details>
