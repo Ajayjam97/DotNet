@@ -401,6 +401,8 @@ Hardware LBs are expensive but provide high performance. Large companies tend to
     
     In Vertical partitioning we divide the tables in between different DB servers based on the usage. Example all table/Data store related to the User Profile can be kept in one DB, others related to Application in other & other specifc tables in some other DB.
     
+    Partition Criterias: Key/Hash Based, List, Round-Robin, Composite
+    
 </details>
   
   <details>
