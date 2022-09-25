@@ -413,6 +413,14 @@ Partition Criterias: Key/Hash Based, List, Round-Robin, Composite
   
   <details>
     <summary>Proxies</summary>
+    Proxies can reside on client's local server or anywhere between the client and the remote servers. Some famous proxies are:
+    
+  
+  1. Open Proxies
+        
+  2. Reverse Proxies
+
+    
 </details>
   
   <details>
